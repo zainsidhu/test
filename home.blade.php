@@ -6,7 +6,7 @@
         <div class="container">
             @if(count($category)>0)
                 @foreach($category as $key => $value)
-                    <div class="grid_8">
+                    <div class="grid_4">
                         <h6 class="subHeadingBackground w-clr pdl_20 pdt_5 pdb_5">{{$category[0]['name']}}</h6>
                         <div class="row off2">
                             <div class="grid_8 content justify">
